@@ -16,16 +16,10 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "oro/commerce": "~3.1.1"
+        "oro/commerce": "4.2.*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1-dev"
-        }
-    },
     "autoload": {
         "psr-4": {"": "src/"},
         "exclude-from-classmap": ["/Tests/"]
